@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="review.css">
+    <script src="time.js"></script>
+    <title>First Year Findings</title>
+  </head>
+  <div class="navbar">
+    <a href="index.html">Home</a>
+    <a href="supplies.html">Supplies</a>
+    <a class="active" href="reviews.html">Reviews</a>
+  </div>
+
+  <div id='content'>
+    <div id='reviewbox'>
+      <h id='reviewhead'>Submit Review:</h> <br>
+      <select name='Departments' id='departments'>
+        <option value='none' selected disabled hidden>Select Department</option>
+        <option value='Engineering'>Engineering</option>
+        <option value='Science'>Science</option>
+        <option value='Computer Science'>Computer Science</option>
+        <option value='Business'>Business</option>
+        <option value='Arts'>Arts & Humanities</option>
+      </select>
+      <br>
+      <textarea rows='5' placeholder="Enter Text Here..." id='reviewtext'></textarea>
+      <button type="button" id='reviewsend' onclick="sendReview()">Send</button>
+    </div>
+  </div>
+  <script src="review.js"></script>
+</html>

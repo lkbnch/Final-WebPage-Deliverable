@@ -1,0 +1,97 @@
+html{
+  background-image: url(images/night.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.navbar {
+  padding:0;
+  position:fixed;
+  top:0;
+  left:0;
+  right:0;
+  overflow: hidden;
+  background-color: #343a40;
+  z-index: 9;
+}
+
+.navbar a{
+  float: center;
+  font-family: verdana;
+  text-decoration: none;
+  text-align: center;
+  padding: 1.5vw;
+  color: white;
+  font-size: 2.5vw;
+}
+
+.active{
+  background-color: #212529;
+}
+
+.navbar a:hover {
+  background-color: #212529;
+}
+
+div{
+  color: white;
+}
+
+body{
+  padding-top:5%;
+
+  font-family:Trebuchet MS;
+}
+
+h1{
+  text-align: center;
+  font-family:Trebuchet MS;
+  color:white;
+  font-size: 3vw;
+}
+
+h2{
+  text-align: center;
+  font-family:Trebuchet MS;
+  color:white ;
+  font-size: 2vw;
+}
+
+li{
+  text-align: left;
+  font-family: verdana;
+  color: white;
+  font-size: 2vw;
+  }
+
+f1{
+  font-family: verdana; 
+  text-align: left;
+  color:white;
+  font-size: 2vw;
+}
+
+img{
+  width: 30%;
+  float: right;
+}
+
+a:link{
+  color:white;
+}
+
+a:visited{
+  color:white;
+}
+
+#content {
+  padding: 10%;
+  position: relative;
+  background-color: #343a40b0;
+  padding-top: 10%;
+  margin: 5%;
+  margin-top: 2%;
+  margin-bottom: 2%;
+}

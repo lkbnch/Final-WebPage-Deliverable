@@ -1,0 +1,65 @@
+<!--Luke Bianchi, Emily Morra, Alexander Hertzbach, Jacob Rosengarten -->
+<!DOCTYPE html>
+<html>
+  <head>
+        <link rel="stylesheet" href="index.css">
+        <script src="time.js"></script>
+        <title>First Year Findings</title>
+        <meta name="viewport" content="width=device-width" />
+  </head>
+        <!--
+        <nav>
+          <ul>
+            
+            
+            <li><a href="supplies.html">Supplies</a></li>
+            <li><a href="chat.html">Chat</a></li>
+            <li><a href="reviews.html">Reviews</a></li>
+          </ul>
+        </nav>
+        -->
+  <div class="navbar">
+    <a class="active" href="index.html">Home</a>
+    <a href="supplies.html">Supplies</a>
+    <a href="reviews.html">Reviews</a>
+  </div>
+  <div id='content'>
+    <h1>First Year Findings.com</h1>
+    <h2>Welcome Class of 2025!<br><br></h2>
+    <img src="images/logo.gif" alt="logo" id="duck" />
+    
+    <footer style="padding-left:16px">
+      <f1>
+        <b><u>Contact Information:</u></b>
+        <br>sm8272@bncollege.com
+        <br>201-499-5802
+      </f1>
+
+      <f1>
+        <b><u><br><br>Address:</u></b><br> 1 Castle Point Terrace <br> Howe Center 1st Floor <br> Hoboken, NJ 07030
+      </f1>
+
+      <f1><br><br>
+      <b><u>Hours:</u></b><br>
+      Mon-Fri 10am-4pm <br>
+      Sat 10am-2pm <br>
+      Sun CLOSED</f1>
+    </footer>
+  </div>
+  
+  <div class="container">
+    <button class="chatButton" type="button" onclick="openChat()">Chat</button>
+
+    <div class="chatbox" id='chatbox'>
+      <script src="chat.js"></script>
+      <link rel="stylesheet" href="chat.css">
+      <h id="message">Message</h>
+      <form class="form">
+        <textarea rows="5" placeholder="Enter Text Here..." id="textarea" required=""></textarea>
+        <button type="button" class="closeButton" onclick="closeChat()">Close</button>
+        <button type="button" class="sendButton" onclick="sendMessage()">Send</button>
+      </form>
+    </div>
+  </div>
+
+</html>

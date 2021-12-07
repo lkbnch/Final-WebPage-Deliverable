@@ -1,0 +1,39 @@
+#reviewbox {
+  border-radius: 10px;
+  border: 2px solid #343a40;
+  width: auto;
+  height: auto;
+  position: relative;
+  background-color: #212529;
+}
+
+#reviewtext {
+  display: block;
+  margin-left: 2%;
+  margin-right:2%;
+  width: 90%;
+}
+
+#reviewhead {
+  display:block;
+  margin-top: 2%;
+  margin-left: 2%;
+}
+
+#reviewsend {
+  margin-left: 2%;
+  margin-bottom: 2%;
+}
+
+#departments {
+  margin-left: 2%;
+}
+
+#reviewprompt {
+  display: block;
+  height: auto;
+  margin:2%;
+  margin-left: 4%;
+  position: relative;
+  color: white;
+}
